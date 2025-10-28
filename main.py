@@ -1,8 +1,9 @@
+# вариант 2
 from polymorf import DataSetting
 
 
 def main():
-    Tim=DataSetting()
+    Tim = DataSetting()
     +Tim
     Tim.split()
     
