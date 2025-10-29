@@ -18,7 +18,7 @@ class DataSetting:
     def split(self):
         def1 = self.df[self.df['Тип операции'] == 'получение средств'] 
         def2 = self.df[self.df['Тип операции'] == 'списание средств']   
-        def1.to_csv('poluchka.csv', index=False)
+        def1.to_csv('polucheno.csv', index=False)
         def2.to_csv('potracheno.csv', index=False)
 
 
